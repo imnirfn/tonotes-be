@@ -17,3 +17,4 @@ export * from './profile.repository';
 export * from './registry.repository';
 export * from './entity.repository';
 export * from './extended-entity.repository';
+export * from './notes.repository';

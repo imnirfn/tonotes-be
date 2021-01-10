@@ -5,6 +5,7 @@ import {Role} from './role.model';
 import {UserRole} from './user-role.model';
 import {Session} from './session.model';
 import {Profile} from './profile.model';
+import {Notes} from './notes.model';
 
 @model()
 export class User extends BaseEntity {
@@ -44,6 +45,9 @@ export class User extends BaseEntity {
 
   @hasOne(() => Profile)
   profile: Profile;
+
+  @hasMany(() => Notes)
+  notes: Notes[];
 
   constructor(data?: Partial<User>) {
     super(data);

@@ -26,7 +26,8 @@ export async function migrate(args: string[]) {
       'Session',
       'Profile',
       'Entity',
-      'ExtendedEntity'
+      'ExtendedEntity',
+      'Notes'
     ],
   });
 

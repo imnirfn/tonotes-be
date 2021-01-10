@@ -17,3 +17,6 @@ export * from './zone.controller';
 export * from './entity-user.controller';
 export * from './entity-extended-entity.controller';
 export * from './entity.controller';
+export * from './notes.controller';
+export * from './user-notes.controller';
+export * from './notes-user.controller';
